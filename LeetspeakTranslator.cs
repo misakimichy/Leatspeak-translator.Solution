@@ -7,38 +7,44 @@ namespace Changer
         public string Translate(string input)
         {
             char[] array = input.ToCharArray();
-            for (int i = 0; i<array.Length; i++)
+            for (int i = 0; i < array.Length; i++)
             {
-                if (array[i]=='s' && !(i==0 || array[i-1]==' '))
-                    array[i] = 'z';
+                if ((array[i] == 's'|| array[i]=='S') && !(i == 0 || array[i-1] == ' ' || array[i-1] == '\"' || array[i-1] == '\''))
+                {
+                    if (array[i] == 's')
+                        array[i] = 'z';
+                    else
+                        array[i] = 'Z';
+                }
+                    
                 switch (array[i])
                 {
                     case 'e':
-                        array[i]='3';
+                        array[i] = '3';
                         break;
                     case 'E':
-                        array[i]='3';
+                        array[i] = '3';
                         break;
                     case 'o':
-                        array[i]='0';
+                        array[i] = '0';
                         break;
                     case 'O':
-                        array[i]='0';
+                        array[i] = '0';
                         break;
                     case 'I':
-                        array[i]='1';
+                        array[i] = '1';
                         break;
                     case 't':
-                        array[i]='7';
+                        array[i] = '7';
                         break;
                     case 'T':
-                        array[i]='7';
+                        array[i] = '7';
                         break;
                     default:
                         break;
                 }
             }
-            string result = string.Join("",array);
+            string result = string.Join("", array);
             return result;
         }
     }
