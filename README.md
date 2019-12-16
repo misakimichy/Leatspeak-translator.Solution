@@ -24,14 +24,14 @@ Write a `LeetspeakTranslator` class with a `Translate()` method that translates 
 ## Setup/Installation Requirements
 
 Clone this repo:
-Please clone this reop.
+`git clone https://github.com/misakimichy/leatspeak-translator.git`
 
 
 ## Known Bugs
 * No known bugs at this time.
 
 ## Support and contact details
-
+misaki.koonce@gmail.com
 
 ## Technologies Used
 _Git, GitHub, C# and .NET Core
