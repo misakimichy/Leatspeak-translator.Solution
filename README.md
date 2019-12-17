@@ -23,9 +23,13 @@ Write a `LeetspeakTranslator` class with a `Translate()` method that translates 
 
 ## Setup/Installation Requirements
 
-Clone this repo:
-`git clone https://github.com/misakimichy/leatspeak-translator.git`
+1. Clone this repo:
+`git clone https://github.com/misakimichy/Leatspeak-translator.Solution.git`
 
+2. Go into the repo and run this application:
+```
+$ dotnet run
+```
 
 ## Known Bugs
 * No known bugs at this time.
