@@ -1,6 +1,6 @@
-# Leatspeak Translator
+# Leetspeak Translator
 
-#### _C#, .NET: Leatspeak Translator, 12/16/2019_
+#### _C#, .NET: Leetspeak Translator, 12/16/2019_
 
 ## Description
 Leetspeak uses an alternative alphabet of numbers and symbols to replace various letters in words. For example, "leet" becomes "1337" and "Epicodus" might become "3pic0duz".
@@ -18,13 +18,14 @@ Write a `LeetspeakTranslator` class with a `Translate()` method that translates 
 | input | Output |
 | :------------- | :------------- |
 | "Don't you love these 'String' exercises? I do!" | "D0n'7 y0u l0v3 7h3z3 'S7ring' 3x3rciz3z? 1 d0!" |
+| 12334 | "Please enter a sentence!" |
 
 
 
 ## Setup/Installation Requirements
 
 1. Clone this repo:
-`git clone https://github.com/misakimichy/Leatspeak-translator.Solution.git`
+`git clone https://github.com/misakimichy/Leetspeak-translator.Solution.git`
 
 2. Go into the repo and run this application:
 ```
@@ -38,7 +39,7 @@ $ dotnet run
 misaki.koonce@gmail.com
 
 ## Technologies Used
-_Git, GitHub, C# and .NET Core
+_Git, GitHub, C# and MS Test
 
 
 ## License
