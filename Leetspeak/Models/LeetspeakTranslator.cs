@@ -1,4 +1,3 @@
-using System;
 using MainProgram;
 namespace Changer
 {
@@ -44,9 +43,7 @@ namespace Changer
                         break;
                 }
             }
-            string result = string.Join("", array);
-            return result;
+            return string.Join("", array);;
         }
     }
-    
 }
